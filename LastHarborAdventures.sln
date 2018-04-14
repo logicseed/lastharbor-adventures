@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{5B49
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureClient", "AdventureClient\AdventureClient.csproj", "{7872686D-C3E5-49D0-AB26-2A42FEBD4D33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{97779583-4E5A-45EC-BDC4-5D4BE1A6927C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,13 +33,16 @@ Global
 		{7872686D-C3E5-49D0-AB26-2A42FEBD4D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7872686D-C3E5-49D0-AB26-2A42FEBD4D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7872686D-C3E5-49D0-AB26-2A42FEBD4D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97779583-4E5A-45EC-BDC4-5D4BE1A6927C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97779583-4E5A-45EC-BDC4-5D4BE1A6927C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97779583-4E5A-45EC-BDC4-5D4BE1A6927C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97779583-4E5A-45EC-BDC4-5D4BE1A6927C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5B4958BE-104D-4E2B-9603-9A3749A250AF} = {FDB303F6-EF7A-4DBD-B94C-AB8F4EBD074E}
-		{7872686D-C3E5-49D0-AB26-2A42FEBD4D33} = {FDB303F6-EF7A-4DBD-B94C-AB8F4EBD074E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {219B0027-1C6D-4406-8964-66398889A776}
