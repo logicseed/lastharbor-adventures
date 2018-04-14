@@ -12,17 +12,49 @@ namespace LastHarbor.Console.Native.Datatypes
     /// <summary>
     /// The attributes to use when writing a character to the console screen buffer. 
     /// </summary>
-    [StructLayout(LayoutKind.Sequential)]
+    [StructLayout(LayoutKind.Explicit)]
     internal struct CharacterAttributes
     {
         #region Private Fields
 
-        private UInt16 _attributes;
-
         private const UInt16 BACKGROUND_MASK = 0x00F0;
         private const UInt16 FOREGROUND_MASK = 0x000F;
 
+        [FieldOffset(0)]
+        private UInt16 _attributes;
+
         #endregion Private Fields
+
+        #region Public Constructors
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="CharacterAttributes"/> struct using the
+        /// specified foreground color.
+        /// </summary>
+        /// <param name="foregroundColor">
+        /// The foreground color of the <see cref="CharacterAttributes"/>.
+        /// </param>
+        public CharacterAttributes(ConsoleColor foregroundColor)
+        {
+            _attributes = (UInt16)foregroundColor;
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="CharacterAttributes"/> struct using the
+        /// specified foreground and background colors.
+        /// </summary>
+        /// <param name="foregroundColor">
+        /// The foreground color of the <see cref="CharacterAttributes"/>.
+        /// </param>
+        /// <param name="backgroundColor">
+        /// The background color of the <see cref="CharacterAttributes"/>.
+        /// </param>
+        public CharacterAttributes(ConsoleColor foregroundColor, ConsoleColor backgroundColor)
+        {
+            _attributes = (UInt16)((UInt16)foregroundColor | ((UInt16)backgroundColor << 4));
+        }
+
+        #endregion Public Constructors
 
         #region Public Properties
 
@@ -58,21 +90,25 @@ namespace LastHarbor.Console.Native.Datatypes
             }
         }
 
+        #endregion Public Properties
+
+        #region Public Methods
+
         /// <summary>
-        /// Implicit casting of a ConsoleColor to a CharacterAttributes.
+        /// Implicit casting of a <see cref="ConsoleColor"/> to a <see cref="CharacterAttributes"/>.
         /// </summary>
-        /// <param name="consoleColor">The ConsoleColor to cast to a CharacterAttributes.</param>
+        /// <param name="consoleColor">
+        /// The <see cref="ConsoleColor"/> to cast to a <see cref="CharacterAttributes"/>.
+        /// </param>
         /// <remarks>
-        /// When implicitly casting from a ConsoleColor, the background will remain black.
+        /// When implicitly casting from a <see cref="ConsoleColor"/>, the background will remain
+        /// black.
         /// </remarks>
         public static implicit operator CharacterAttributes(ConsoleColor consoleColor)
         {
-            return new CharacterAttributes()
-            {
-                ForegroundColor = consoleColor
-            };
+            return new CharacterAttributes(consoleColor);
         }
 
-        #endregion Public Properties
+        #endregion Public Methods
     }
 }
