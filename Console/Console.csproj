@@ -33,6 +33,7 @@
     <Compile Include="Native\Datatypes\CharacterAttributes.cs" />
     <Compile Include="Native\Datatypes\CharacterInfo.cs" />
     <Compile Include="Native\Datatypes\CharacterUnion.cs" />
+    <Compile Include="Native\Datatypes\ConsoleCursorInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
