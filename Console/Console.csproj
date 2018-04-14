@@ -7,8 +7,8 @@
     <ProjectGuid>{97779583-4E5A-45EC-BDC4-5D4BE1A6927C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FlamingoParade.LastHarbor.Console</RootNamespace>
-    <AssemblyName>FlamingoParade.LastHarbor.Console</AssemblyName>
+    <RootNamespace>LastHarbor.Console</RootNamespace>
+    <AssemblyName>LastHarbor.Console</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Native\Datatypes\CharacterAttributes.cs" />
+    <Compile Include="Native\Datatypes\CharacterInfo.cs" />
+    <Compile Include="Native\Datatypes\CharacterUnion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
