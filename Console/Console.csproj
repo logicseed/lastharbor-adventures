@@ -35,7 +35,8 @@
     <Compile Include="Native\Datatypes\CONSOLE_CURSOR_INFO.cs" />
     <Compile Include="Native\Datatypes\CONSOLE_FONT_INFO.cs" />
     <Compile Include="Native\Datatypes\CONSOLE_FONT_INFOEX.cs" />
-    <Compile Include="Native\Datatypes\COORDINATE.cs" />
+    <Compile Include="Native\Datatypes\CONSOLE_HISTORY_INFO.cs" />
+    <Compile Include="Native\Datatypes\COORD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
