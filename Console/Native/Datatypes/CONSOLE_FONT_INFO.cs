@@ -24,12 +24,12 @@ namespace LastHarbor.Console.Native.Datatypes
         public Int32 Font;
 
         /// <summary>
-        /// A <see cref="COORDINATE"/> structure that contains the width and height of each character in
+        /// A <see cref="COORD"/> structure that contains the width and height of each character in
         /// the font, in logical units.
         /// </summary>
         /// <remarks>
         /// The <c>X</c> member contains the width, while the <c>Y</c> member contains the height.
         /// </remarks>
-        public COORDINATE FontSize;
+        public COORD FontSize;
     }
 }

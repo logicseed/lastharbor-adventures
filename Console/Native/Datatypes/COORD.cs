@@ -16,7 +16,7 @@ namespace LastHarbor.Console.Native.Datatypes
     /// The origin of the coordinate system (0,0) is at the top, left cell of the buffer.
     /// </remarks>
     [StructLayout(LayoutKind.Sequential)]
-    internal struct COORDINATE
+    internal struct COORD
     {
         /// <summary>
         /// The horizontal coordinate or column value. The units depend on the function call.
