@@ -30,13 +30,32 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Native\Datatypes\CHAR_ATTR.cs" />
     <Compile Include="Native\Datatypes\CHAR_INFO.cs" />
     <Compile Include="Native\Datatypes\CHAR_UNION.cs" />
+    <Compile Include="Native\Datatypes\COLORREF.cs" />
     <Compile Include="Native\Datatypes\CONSOLE_CURSOR_INFO.cs" />
     <Compile Include="Native\Datatypes\CONSOLE_FONT_INFO.cs" />
     <Compile Include="Native\Datatypes\CONSOLE_FONT_INFOEX.cs" />
     <Compile Include="Native\Datatypes\CONSOLE_HISTORY_INFO.cs" />
+    <Compile Include="Native\Datatypes\CONSOLE_READCONSOLE_CONTROL.cs" />
+    <Compile Include="Native\Datatypes\CONSOLE_SCREEN_BUFFER_INFO.cs" />
+    <Compile Include="Native\Datatypes\CONSOLE_SCREEN_BUFFER_INFOEX.cs" />
+    <Compile Include="Native\Datatypes\CONSOLE_SELECTION_FLAGS.cs" />
+    <Compile Include="Native\Datatypes\CONSOLE_SELECTION_INFO.cs" />
+    <Compile Include="Native\Datatypes\CONTROL_KEY_STATE.cs" />
     <Compile Include="Native\Datatypes\COORD.cs" />
+    <Compile Include="Native\Datatypes\FOCUS_EVENT_RECORD.cs" />
+    <Compile Include="Native\Datatypes\INPUT_RECORD.cs" />
+    <Compile Include="Native\Datatypes\INPUT_RECORD_TYPE.cs" />
+    <Compile Include="Native\Datatypes\KEY_EVENT_RECORD.cs" />
+    <Compile Include="Native\Datatypes\MENU_EVENT_RECORD.cs" />
+    <Compile Include="Native\Datatypes\MOUSE_BUTTON_STATE.cs" />
+    <Compile Include="Native\Datatypes\MOUSE_EVENT_FLAGS.cs" />
+    <Compile Include="Native\Datatypes\MOUSE_EVENT_RECORD.cs" />
+    <Compile Include="Native\Datatypes\SMALL_RECT.cs" />
+    <Compile Include="Native\Datatypes\VIRTUAL_KEY_CODE.cs" />
+    <Compile Include="Native\Datatypes\WINDOW_BUFFER_SIZE_RECORD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

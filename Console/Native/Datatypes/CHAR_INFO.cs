@@ -27,6 +27,7 @@ namespace LastHarbor.Console.Native.Datatypes
         /// <summary>
         /// The attributes to use when writing a character to the console screen buffer.
         /// </summary>
-        public Int16 Attributes;
+        [MarshalAs(UnmanagedType.I2)]
+        public CHAR_ATTR Attributes;
     }
 }

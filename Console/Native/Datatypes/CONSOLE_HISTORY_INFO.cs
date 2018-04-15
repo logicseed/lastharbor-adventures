@@ -1,9 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿// Copyright © 2018 Marc King <marc@marc.software> - All Rights Reserved
+//
+// SPDX-License-Identifier: MIT
+//
+// This work is licensed under the terms of the MIT license. See <LICENSE.md> for more information.
+
+using System;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LastHarbor.Console.Native.Datatypes
 {
@@ -16,9 +18,7 @@ namespace LastHarbor.Console.Native.Datatypes
         /// <summary>
         /// The size of the structure, in bytes.
         /// </summary>
-        /// <remarks>
-        /// Set this member to <c>sizeof(CONSOLE_HISTORY_INFO)</c>.
-        /// </remarks>
+        /// <remarks>Set this member to <c>sizeof(CONSOLE_HISTORY_INFO)</c>.</remarks>
         public Int32 Size;
 
         /// <summary>

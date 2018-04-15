@@ -1,9 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿// Copyright © 2018 Marc King <marc@marc.software> - All Rights Reserved
+//
+// SPDX-License-Identifier: MIT
+//
+// This work is licensed under the terms of the MIT license. See <LICENSE.md> for more information.
+
+using System;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LastHarbor.Console.Native.Datatypes
 {
@@ -40,9 +42,7 @@ namespace LastHarbor.Console.Native.Datatypes
         /// <summary>
         /// The font weight. The weight can range from 100 to 1000, in multiples of 100.
         /// </summary>
-        /// <remarks>
-        /// For example, the normal weight is 400, while 700 is bold.
-        /// </remarks>
+        /// <remarks>For example, the normal weight is 400, while 700 is bold.</remarks>
         public Int32 FontWeight;
 
         /// <summary>
