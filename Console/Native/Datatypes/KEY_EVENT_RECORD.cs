@@ -7,7 +7,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace LastHarbor.Console.Native.Datatypes
+namespace LastHarbor.Console.Native
 {
     /// <summary>
     /// Describes a keyboard input event in a console INPUT_RECORD structure.

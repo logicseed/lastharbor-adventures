@@ -7,7 +7,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace LastHarbor.Console.Native.Datatypes
+namespace LastHarbor.Console.Native
 {
     /// <summary>
     /// A union of the Unicode or Ascii character of a screen buffer character cell.

@@ -7,7 +7,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace LastHarbor.Console.Native.Datatypes
+namespace LastHarbor.Console.Native
 {
     /// <summary>
     /// Describes a menu event in a console <see cref="INPUT_RECORD"/> structure. These events are

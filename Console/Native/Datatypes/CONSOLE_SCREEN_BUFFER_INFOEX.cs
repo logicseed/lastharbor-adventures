@@ -7,7 +7,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace LastHarbor.Console.Native.Datatypes
+namespace LastHarbor.Console.Native
 {
     /// <summary>
     /// Contains extended information about a console screen buffer.

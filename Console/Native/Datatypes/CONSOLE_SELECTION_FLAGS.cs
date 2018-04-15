@@ -6,7 +6,7 @@
 
 using System;
 
-namespace LastHarbor.Console.Native.Datatypes
+namespace LastHarbor.Console.Native
 {
     /// <summary>
     /// The selection indicator.

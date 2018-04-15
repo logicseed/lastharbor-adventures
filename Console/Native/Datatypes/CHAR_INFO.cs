@@ -7,7 +7,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace LastHarbor.Console.Native.Datatypes
+namespace LastHarbor.Console.Native
 {
     /// <summary>
     /// Specifies a Unicode or Ascii character and its attributes.

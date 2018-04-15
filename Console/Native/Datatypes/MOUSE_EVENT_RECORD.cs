@@ -6,7 +6,7 @@
 
 using System.Runtime.InteropServices;
 
-namespace LastHarbor.Console.Native.Datatypes
+namespace LastHarbor.Console.Native
 {
     /// <summary>
     /// Describes a mouse input event in a console <see cref="INPUT_RECORD"/> structure.

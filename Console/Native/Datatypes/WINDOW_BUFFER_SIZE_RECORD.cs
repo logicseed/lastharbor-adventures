@@ -6,7 +6,7 @@
 
 using System.Runtime.InteropServices;
 
-namespace LastHarbor.Console.Native.Datatypes
+namespace LastHarbor.Console.Native
 {
     /// <summary>
     /// Describes a change in the size of the console screen buffer.

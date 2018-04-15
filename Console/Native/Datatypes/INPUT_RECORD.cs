@@ -6,7 +6,7 @@
 
 using System.Runtime.InteropServices;
 
-namespace LastHarbor.Console.Native.Datatypes
+namespace LastHarbor.Console.Native
 {
     /// <summary>
     /// Describes an input event in the console input buffer.
