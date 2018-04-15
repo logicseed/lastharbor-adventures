@@ -30,10 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Native\Datatypes\CharacterAttributes.cs" />
-    <Compile Include="Native\Datatypes\CharacterInfo.cs" />
-    <Compile Include="Native\Datatypes\CharacterUnion.cs" />
-    <Compile Include="Native\Datatypes\ConsoleCursorInfo.cs" />
+    <Compile Include="Native\Datatypes\CHAR_INFO.cs" />
+    <Compile Include="Native\Datatypes\CHAR_UNION.cs" />
+    <Compile Include="Native\Datatypes\CONSOLE_CURSOR_INFO.cs" />
+    <Compile Include="Native\Datatypes\CONSOLE_FONT_INFO.cs" />
+    <Compile Include="Native\Datatypes\CONSOLE_FONT_INFOEX.cs" />
+    <Compile Include="Native\Datatypes\COORDINATE.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
